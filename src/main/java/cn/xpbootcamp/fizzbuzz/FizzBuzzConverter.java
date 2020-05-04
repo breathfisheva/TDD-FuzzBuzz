@@ -6,6 +6,27 @@ public class FizzBuzzConverter {
 		String numStr = "" + num;
 		if (num%3 == 0) {
 			numStr = "Fizz";
+			
+			if(num%5 == 0) {
+				numStr += "Buzz";
+				
+				if(num%7 == 0) {
+					numStr += "Whizz";
+				}
+			}
+			else if(num%7 == 0) {
+				numStr += "Whizz";
+			}
+		}
+		else if (num%5 == 0) {
+			numStr = "Buzz";
+			
+			if(num%7 == 0) {
+				numStr += "Whizz";
+			}
+		}
+		else if (num%7 == 0) {
+			numStr = "Whizz";
 		}
 		return numStr;
 	}
