@@ -178,7 +178,7 @@ public class FizzBuzzTest {
         
     	FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
 
-        Assert.assertEquals("FizzBuzz", fizzBuzz.convert(15));
+        Assert.assertEquals("FizzBuzz", fizzBuzz.convert(60));
     }
     
     @Test
@@ -194,7 +194,7 @@ public class FizzBuzzTest {
         
     	FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
 
-        Assert.assertEquals("FizzBuzzWhizz", fizzBuzz.convert(105));
+        Assert.assertEquals("FizzBuzzWhizz", fizzBuzz.convert(210));
     }
 
     @Test
