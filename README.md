@@ -34,31 +34,36 @@
 
 ## 需求描述
 
-Given数字中含有7，是3的倍数，不是7的倍数，When报数，Then报Fizz
-Given数字中含有7，是7的倍数，不是3的倍数，When报数，Then 报Whizz
-Given数字中含有7，是5的倍数，不是3和7的倍数，When报数，Then报原来数字本身
-Given数字中含有7，是3和7的倍数，When报数，Then报FizzWhizz
-Given数字中含有7，是3和5的倍数，不是7的倍数，When报数，Then报Fizz
-Given数字中含有7，是5和7的倍数，不是3的倍数，When报数，Then报Whizz
+- Given数字中含有7，是3的倍数，不是7的倍数，When报数，Then报Fizz
+- Given数字中含有7，是7的倍数，不是3的倍数，When报数，Then 报Whizz
+- Given数字中含有7，是5的倍数，不是3和7的倍数，When报数，Then报原来数字本身
+- Given数字中含有7，是3和7的倍数，When报数，Then报FizzWhizz
+- Given数字中含有7，是3和5的倍数，不是7的倍数，When报数，Then报Fizz
+- Given数字中含有7，是5和7的倍数，不是3的倍数，When报数，Then报Whizz
 
+<br/>
 
-Given数字中含有5且不含有7，是5的倍数，不是7的倍数，When报数，Then报Buzz
-Given数字中含有5且不含有7，是7的倍数，不是5的倍数，When报数，Then报Whizz
-Given数字中含有5且不含有7，是3的倍数，不是5，7的倍数，When报数，Then报数字本身
-Given数字中含有5且不含有7，是5，7的倍数，When报数，Then报BUzzWhizz
-Given数字中含有5且不含有7，是3，5的倍数，不是7的倍数，When报数，Then报Buzz
-Given数字中含有5且不含有7，是3，7的倍数，不是5的倍数，When报数，Then报Whizz
+- Given数字中含有5且不含有7，是5的倍数，不是7的倍数，When报数，Then报Buzz
+- Given数字中含有5且不含有7，是7的倍数，不是5的倍数，When报数，Then报Whizz
+- Given数字中含有5且不含有7，是3的倍数，不是5，7的倍数，When报数，Then报数字本身
+- Given数字中含有5且不含有7，是5，7的倍数，When报数，Then报BUzzWhizz
+- Given数字中含有5且不含有7，是3，5的倍数，不是7的倍数，When报数，Then报Buzz
+- Given数字中含有5且不含有7，是3，7的倍数，不是5的倍数，When报数，Then报Whizz
 
-Given数字中含有3，且不含有5和7，When报数，Then报Fizz
+<br/>
 
-Given数字中不包含3，5，7，是3，5的倍数，When报数，Then报FizzBuzz
-Given数字中不包含3，5，7，是3，5，7的倍数，When报数，Then报FizzBuzzWhizz
-Given数字中不包含3，5，7，是3，7的倍数，When报数，Then报FizzWhizz
-Given数字中不包含3，5，7，是5，7的倍数，When报数，Then报BuzzWhizz
-Given数字中不包含3，5，7，是3的倍数，When报数，Then报Fizz
-Given数字中不包含3，5，7，是5的倍数，When报数，Then报Buzz
-Given数字中不包含3，5，7，是7的倍数，When报数，Then报Whizz
-Given数字中不包含3，5，7，不是3，5，7的倍数，When报数，Then报数字本身
+- Given数字中含有3，且不含有5和7，When报数，Then报Fizz
+
+<br/>
+
+- Given数字中不包含3，5，7，是3，5的倍数，When报数，Then报FizzBuzz
+- Given数字中不包含3，5，7，是3，5，7的倍数，When报数，Then报FizzBuzzWhizz
+- Given数字中不包含3，5，7，是3，7的倍数，When报数，Then报FizzWhizz
+- Given数字中不包含3，5，7，是5，7的倍数，When报数，Then报BuzzWhizz
+- Given数字中不包含3，5，7，是3的倍数，When报数，Then报Fizz
+- Given数字中不包含3，5，7，是5的倍数，When报数，Then报Buzz
+- Given数字中不包含3，5，7，是7的倍数，When报数，Then报Whizz
+- Given数字中不包含3，5，7，不是3，5，7的倍数，When报数，Then报数字本身
 
 
 
